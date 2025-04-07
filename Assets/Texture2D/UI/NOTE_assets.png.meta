@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 3f0ee9c405284324a97fdf8f23a132c0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: arrow static instance 10000
+    21300002: arrow static instance 20000
+    21300004: arrow static instance 30000
+    21300006: arrow static instance 40000
+    21300008: blue hold end instance 10000
+    21300010: blue hold piece instance 10000
+    21300012: blue instance 10000
+    21300014: down confirm instance 10000
+    21300016: down confirm instance 10001
+    21300018: down confirm instance 10002
+    21300020: down confirm instance 10003
+    21300022: down press instance 10000
+    21300024: down press instance 10001
+    21300026: down press instance 10002
+    21300028: down press instance 10003
+    21300030: green hold end instance 10000
+    21300032: green hold piece instance 10000
+    21300034: green instance 10000
+    21300036: left confirm instance 10000
+    21300038: left confirm instance 10001
+    21300040: left confirm instance 10002
+    21300042: left confirm instance 10003
+    21300044: left press instance 10000
+    21300046: left press instance 10001
+    21300048: left press instance 10002
+    21300050: left press instance 10003
+    21300052: left press instance 10004
+    21300054: left press instance 10005
+    21300056: left press instance 10006
+    21300058: left press instance 10007
+    21300060: left press instance 10008
+    21300062: left press instance 10009
+    21300064: left press instance 10010
+    21300066: left press instance 10011
+    21300068: left press instance 10012
+    21300070: left press instance 10013
+    21300072: left press instance 10014
+    21300074: left press instance 10015
+    21300076: left press instance 10016
+    21300078: left press instance 10017
+    21300080: left press instance 10018
+    21300082: left press instance 10019
+    21300084: pruple end hold instance 10000
+    21300086: purple hold piece instance 10000
+    21300088: purple instance 10000
+    21300090: red hold end instance 10000
+    21300092: red hold piece instance 10000
+    21300094: red instance 10000
+    21300096: right confirm instance 10000
+    21300098: right confirm instance 10001
+    21300100: right confirm instance 10002
+    21300102: right confirm instance 10003
+    21300104: right press instance 10000
+    21300106: right press instance 10001
+    21300108: right press instance 10002
+    21300110: right press instance 10003
+    21300112: right press instance 10004
+    21300114: right press instance 10005
+    21300116: right press instance 10006
+    21300118: right press instance 10007
+    21300120: right press instance 10008
+    21300122: right press instance 10009
+    21300124: right press instance 10010
+    21300126: right press instance 10011
+    21300128: right press instance 10012
+    21300130: right press instance 10013
+    21300132: right press instance 10014
+    21300134: right press instance 10015
+    21300136: right press instance 10016
+    21300138: right press instance 10017
+    21300140: right press instance 10018
+    21300142: right press instance 10019
+    21300144: right press instance 10020
+    21300146: right press instance 10021
+    21300148: right press instance 10022
+    21300150: right press instance 10023
+    21300152: right press instance 10024
+    21300154: right press instance 10025
+    21300156: right press instance 10026
+    21300158: up confirm instance 10000
+    21300160: up confirm instance 10001
+    21300162: up confirm instance 10002
+    21300164: up confirm instance 10003
+    21300166: up press instance 10000
+    21300168: up press instance 10001
+    21300170: up press instance 10002
+    21300172: up press instance 10003
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arrow static instance 10000
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 628
+        width: 155
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a8ce481380eff4087f1b3499689eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow static instance 20000
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 631
+        width: 157
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61ced378c897f74d830941557ff44ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow static instance 30000
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 629
+        width: 155
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0d6fa343c0fca408f3ff13e5af0d35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow static instance 40000
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 630
+        width: 157
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2eb8dbbfb3834419aee712af45371d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue hold end instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 508
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e8c95d0c849fa419b1fd457f98a506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue hold piece instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 523
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ef970871cd578459b937ac64b253cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue instance 10000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7654e60337cd94798f1454d55abefa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down confirm instance 10000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 240
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0251c7ce5e1d2594585b1f7daf994557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down confirm instance 10001
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 788
+        width: 240
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a290a139806c1704b91834b9e04d108e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down confirm instance 10002
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 571
+        width: 221
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64585b9daefcea648b5d39229004b9d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down confirm instance 10003
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 571
+        width: 221
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573c6cee9e75a0d429342e6382fa32f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down press instance 10000
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 486
+        width: 143
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24aca5efb0dd6354fbdc18a8d6f34e55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down press instance 10001
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 486
+        width: 143
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5942a2387797b47901bbf59ee1315a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down press instance 10002
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 878
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800d640a980606a4f9ccbd16c0419983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: down press instance 10003
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 878
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641a52f541a02304cbefdd32a3e87324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green hold end instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 508
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb2375d9d9903f4393ab01b17f356ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green hold piece instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 523
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251ab74735b856a4eb10306b4f1ddaab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green instance 10000
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 630
+        width: 157
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b68e9f8462a5b347a8428326a0d9733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left confirm instance 10000
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 792
+        width: 230
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2f928ed9b665f4685ebbd85dcd01a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left confirm instance 10001
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 569
+        width: 220
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2c0247ad98385438d7b79812c3db28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left confirm instance 10002
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 795
+        width: 227
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9638f3833039cf743a596e6564925d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left confirm instance 10003
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 795
+        width: 227
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652a5054792cb104499ec377fe826220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 433
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc3a6ec4912b474c9f25105d4a0dba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10001
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 433
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dac38b09d1ace4c97b06a944353fa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10002
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67727c660a30c004daced76b4d781e3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10003
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a3513433f9e7c4c83280a2d1196e3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10004
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df384dc50e506474fbd07670bd022fc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10005
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec477a18d56a37d40aae4d84044c259f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10006
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d9e59c89388184a9cef97baea3838d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10007
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef36e2110d03b4697368a1cd2cf399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10008
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fddb591fd29d34eaee103d7e522d07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10009
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52756d170a9b3fb4199a3555285310b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10010
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c9220fa6377784cb0257a11cf9eb15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10011
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70056a936e57dc43a442f59a78be30e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10012
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc7ee90b12a685459afbab9b01fd3ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10013
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13908a7e95e6d71438b370f5bff9b637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10014
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55719ea5daeb89d419f5a03a6b49df93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10015
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0718bcc0a85520429aa209d5804615e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10016
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b382d43a76a8643b88249f455f3347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10017
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6064dc84de594489d9d4a8acd57f3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10018
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e050939ff0556449daf4d9ec6b3970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: left press instance 10019
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 725
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750e4744bca23fc4786e6e17474ec4e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pruple end hold instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 508
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1213c333a6ccee419e2703f91c9adcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple hold piece instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 523
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0e444f2e0f21941a82d536dbf33568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple instance 10000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 154
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e6efb7a905a2a41bc0255dd7abf5b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hold end instance 10000
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 508
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3af3d195c7df845b66fbbc1b111e40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red hold piece instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 523
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fd19440a0bb65459e7a165ea225405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red instance 10000
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 470
+        width: 154
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b844e58fe885f4db1be4d4ea037752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right confirm instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 796
+        width: 225
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688e6e4829786bb47b14c2b8dd58d3d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right confirm instance 10001
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 564
+        width: 225
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff7b09c71cc09d4fa946480487f9cde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right confirm instance 10002
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 793
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1099bec4c5ed2db4eb95887c17f5a969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right confirm instance 10003
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 793
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a918fecb69d494491ff27868dc1ebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10000
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 482
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32417f9b409117468257a8b2e6119fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10001
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 482
+        width: 139
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579e805263cd1e4084d971d2f679489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10002
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48c2abb31822a74e9b7ba058d856b98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10003
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d0eb7b9669c6e4c9ec532628085426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10004
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3f0535ad3a4fc44baa4f1df2b2ac51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10005
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942534b75f717da4095e6511fc5a5a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10006
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd625e85ebe5c0b4ba8b2f51017f0a0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10007
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa004539584adc4c86f1d507e7350cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10008
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1f5cf601251de4cae308600342409a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10009
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a889b83153cb646af33b041c682833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10010
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f464c95d042da4686e764a58b479d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10011
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d9c6799ee7f8545bff74b8dbc42c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10012
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e134bf7efb648479339aa9fb119bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10013
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1ba8b3893a5974bb6516a79d06050a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10014
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ae4226c2825474e96ef124a61caa50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10015
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ef45d19397cf94cbf96a15df004772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10016
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f754a0ee7b289194a9339479b521add0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10017
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c11ffdcd2b37b429f40cf408adfc5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10018
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010b6530a99e4214da0b6ffec70f93dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10019
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782f848b6d11efd40905cd90c24c342f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10020
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8cef5ea3317784997c62e5edb7ce2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10021
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd89d12d73ac8fc468ce63c4cf691519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10022
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a909590c82c37ee408c4f89b93971578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10023
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf010fe19dfdc504fba0aa5d68faf0a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10024
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2029dbb144f97834688298bb4bf326c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10025
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1758355bf619db14992ea6581138cc1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: right press instance 10026
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 474
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259b384b8e86f9643894ac47e45f57c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up confirm instance 10000
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 790
+        width: 238
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b409202bacffe9f48a1ca9e4fa5d821f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up confirm instance 10001
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 790
+        width: 238
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0b30f92633a524f9931c0f5cde815b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up confirm instance 10002
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 576
+        width: 216
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ab4bee89d1ca54bb113faeb97069d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up confirm instance 10003
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 576
+        width: 216
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e804608128ac1cf4998d699c8b24c327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up press instance 10000
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 579
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72191922962aa549acecfd239e26c29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up press instance 10001
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 579
+        width: 144
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaa34c38df02a74393da9f7095146fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up press instance 10002
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 475
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70afaaf170570754794f8d104eb36c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: up press instance 10003
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 475
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c9245a2eb558c4a8598b837a5501cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1bd26fbd3d02cee41b6c9ccd69ae0d5e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
