@@ -35,7 +35,7 @@ public class PlayerStrums : MonoBehaviour
             }
             else
             {
-                Debug.LogError($"Strum {strum.id} is missing Animator component!");
+                Debug.LogError("Strum " + strum.id + " is missing Animator component!");
             }
         }
     }
@@ -108,6 +108,26 @@ public class PlayerStrums : MonoBehaviour
                 strum.animator.transform.localPosition = strum.defaultOffset;
             }
             */
+        }
+    }
+
+    public void PlayStrumAnimation(StrumNoteController.NoteDirection direction, bool hit)
+    {
+        int strumIndex = (int)direction;
+        if (strumIndex >= 0 && strumIndex < strums.Count)
+        {
+            var strum = strums[strumIndex];
+            if (strum.animator != null)
+            {
+                if (hit)
+                {
+                    strum.animator.Play("confirm", 0, 0f);
+                }
+                else
+                {
+                    strum.animator.Play("pressed", 0, 0f);
+                }
+            }
         }
     }
 
