@@ -74,7 +74,7 @@ public class Conductor : MonoBehaviour
              if (Time.frameCount % 120 == 0)
              {
                  float voiceTimeLog = (voicesSource != null && voicesSource.isPlaying) ? voicesSource.time * 1000f : -1f;
-                 Debug.Log("Conductor Update: songPos=" + songPosition + "ms (inst=" + instSource.time + "s), voicePos=" + voiceTimeLog + "ms");
+                // Debug.Log("Conductor Update: songPos=" + songPosition + "ms (inst=" + instSource.time + "s), voicePos=" + voiceTimeLog + "ms");
              }
         }
         else if (isPlaying)
@@ -95,7 +95,7 @@ public class Conductor : MonoBehaviour
         }
 
 
-        Debug.Log("Resynced vocals to instSource time: " + targetTime * 1000f + "ms");
+       // Debug.Log("Resynced vocals to instSource time: " + targetTime * 1000f + "ms");
     }
 
     public void StartSong()
@@ -179,7 +179,7 @@ public class Conductor : MonoBehaviour
             totalPos += ((60f / curBPM) * 1000f / 4f) * deltaSteps;
         }
 
-        Debug.Log("New BPM map created with " + bpmChangeMap.Count + " changes");
+       // Debug.Log("New BPM map created with " + bpmChangeMap.Count + " changes");
     }
 
     public void ChangeBPM(int newBpm)

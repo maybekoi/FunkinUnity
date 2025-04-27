@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4323891900319278}
   - component: {fileID: 212859966970046800}
   - component: {fileID: 114539051208222010}
-  - component: {fileID: 61348604066122808}
   - component: {fileID: 95357101738987678}
+  - component: {fileID: 58111199777488738}
   m_Layer: 0
   m_Name: DownNote
   m_TagString: Untagged
@@ -43,8 +43,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61348604066122808
-BoxCollider2D:
+--- !u!58 &58111199777488738
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -56,18 +56,8 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.58, y: 1.54}
-    newSize: {x: 1.57, y: 1.55}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 0.75}
-  m_EdgeRadius: 0
+  m_Radius: 0.4
 --- !u!95 &95357101738987678
 Animator:
   serializedVersion: 3
@@ -103,9 +93,6 @@ MonoBehaviour:
   canBeHit: 0
   tooLate: 0
   wasGoodHit: 0
-  prevNote: {fileID: 0}
-  sustainLength: 0
-  isSustainNote: 0
   noteScore: 1
 --- !u!212 &212859966970046800
 SpriteRenderer:

@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 16662167}
   - component: {fileID: 16662168}
   - component: {fileID: 16662169}
+  - component: {fileID: 16662170}
   m_Layer: 0
   m_Name: DownStatic
   m_TagString: Untagged
@@ -239,10 +240,22 @@ MonoBehaviour:
   canBeHit: 0
   tooLate: 0
   wasGoodHit: 0
-  isSustainNote: 0
-  prevNote: {fileID: 0}
-  sustainLength: 0
   scrollSpeed: 1
+--- !u!58 &16662170
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16662164}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!1 &317713335
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,18 +525,22 @@ MonoBehaviour:
     id: 0
     defaultOffset: {x: 0, y: 0}
     confirmOffset: {x: 0, y: 0}
+    collider: {fileID: 0}
   - animator: {fileID: 16662167}
     id: 1
     defaultOffset: {x: 0, y: 0}
     confirmOffset: {x: 0, y: 0}
+    collider: {fileID: 0}
   - animator: {fileID: 1677292318}
     id: 2
     defaultOffset: {x: 0, y: 0}
     confirmOffset: {x: 0, y: 0}
+    collider: {fileID: 0}
   - animator: {fileID: 852167181}
     id: 3
     defaultOffset: {x: 0, y: 0}
     confirmOffset: {x: 0, y: 0}
+    collider: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +931,7 @@ GameObject:
   - component: {fileID: 852167181}
   - component: {fileID: 852167182}
   - component: {fileID: 852167183}
+  - component: {fileID: 852167184}
   m_Layer: 0
   m_Name: RightStatic
   m_TagString: Untagged
@@ -1028,10 +1046,22 @@ MonoBehaviour:
   canBeHit: 0
   tooLate: 0
   wasGoodHit: 0
-  isSustainNote: 0
-  prevNote: {fileID: 0}
-  sustainLength: 0
   scrollSpeed: 1
+--- !u!58 &852167184
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 852167178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!1 &902921089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1888,7 @@ GameObject:
   - component: {fileID: 1677292318}
   - component: {fileID: 1677292319}
   - component: {fileID: 1677292320}
+  - component: {fileID: 1677292321}
   m_Layer: 0
   m_Name: UpStatic
   m_TagString: Untagged
@@ -1972,10 +2003,22 @@ MonoBehaviour:
   canBeHit: 0
   tooLate: 0
   wasGoodHit: 0
-  isSustainNote: 0
-  prevNote: {fileID: 0}
-  sustainLength: 0
   scrollSpeed: 1
+--- !u!58 &1677292321
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677292315}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00000047683716, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
 --- !u!1 &1710270117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,6 +2321,7 @@ GameObject:
   - component: {fileID: 1894956528}
   - component: {fileID: 1894956529}
   - component: {fileID: 1894956530}
+  - component: {fileID: 1894956531}
   m_Layer: 0
   m_Name: LeftStatic
   m_TagString: Untagged
@@ -2380,7 +2424,19 @@ MonoBehaviour:
   canBeHit: 0
   tooLate: 0
   wasGoodHit: 0
-  isSustainNote: 0
-  prevNote: {fileID: 0}
-  sustainLength: 0
   scrollSpeed: 1
+--- !u!58 &1894956531
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1894956526}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
