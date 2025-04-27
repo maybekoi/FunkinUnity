@@ -8,9 +8,6 @@ public class Note : MonoBehaviour
     public bool canBeHit;
     public bool tooLate;
     public bool wasGoodHit;
-    public Note prevNote;
-    public float sustainLength;
-    public bool isSustainNote;
     public float noteScore = 1f;
 
     public static float swagWidth = 160f * 0.7f;
@@ -24,7 +21,7 @@ public class Note : MonoBehaviour
     private string currentStage;
 
     private static readonly float[] OPPONENT_X_POSITIONS = new float[] { -4f, -3f, -2f, -1f };
-    private static readonly float[] PLAYER_X_POSITIONS = new float[] { 2.16f, 3.86f, 5.57961f, 7.25f };
+    private static readonly float[] PLAYER_X_POSITIONS = new float[] { 2.447f, 3.941f, 5.52f, 7.034f };
     private const float SPAWN_Y = -15f;
     
     private bool upScroll = true;
@@ -41,12 +38,10 @@ public class Note : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void Initialize(float strumTime, int noteData, Note prevNote = null, bool isSustainNote = false)
+    public void Initialize(float strumTime, int noteData)
     {
         this.strumTime = strumTime;
         this.noteData = noteData;
-        this.prevNote = prevNote ?? this;
-        this.isSustainNote = isSustainNote;
 
         float xPos = mustPress ? PLAYER_X_POSITIONS[noteData] : OPPONENT_X_POSITIONS[noteData];
         initialPosition = new Vector3(xPos, SPAWN_Y, 0f);
@@ -71,7 +66,6 @@ public class Note : MonoBehaviour
         }
 
         SetupNoteVisuals();
-        SetupNotePosition();
     }
 
     private void SetupNoteVisuals()
@@ -92,82 +86,23 @@ public class Note : MonoBehaviour
 
     private void SetupNormalNote()
     {
-        if (isSustainNote)
+        switch (noteData)
         {
-            switch (noteData)
-            {
-                case PURP_NOTE:
-                    animator.Play("purpleholdend");
-                    break;
-                case GREEN_NOTE:
-                    animator.Play("greenholdend");
-                    break;
-                case RED_NOTE:
-                    animator.Play("redholdend");
-                    break;
-                case BLUE_NOTE:
-                    animator.Play("blueholdend");
-                    break;
-            }
-        }
-        else
-        {
-            switch (noteData)
-            {
-                case PURP_NOTE:
-                    animator.Play("purpleScroll");
-                    break;
-                case GREEN_NOTE:
-                    animator.Play("greenScroll");
-                    break;
-                case RED_NOTE:
-                    animator.Play("redScroll");
-                    break;
-                case BLUE_NOTE:
-                    animator.Play("blueScroll");
-                    break;
-            }
+            case PURP_NOTE:
+                animator.Play("purpleScroll");
+                break;
+            case GREEN_NOTE:
+                animator.Play("greenScroll");
+                break;
+            case RED_NOTE:
+                animator.Play("redScroll");
+                break;
+            case BLUE_NOTE:
+                animator.Play("blueScroll");
+                break;
         }
 
         transform.localScale = new Vector3(1f, 1f, 1f);
-    }
-
-    private void SetupNotePosition()
-    {
-        if (isSustainNote && prevNote != null)
-        {
-            noteScore *= 0.2f;
-            spriteRenderer.color = new Color(1f, 1f, 1f, 0.6f);
-
-            transform.localPosition += new Vector3(transform.localScale.x / 2f, 0f, 0f);
-
-            if (currentStage == "school" || currentStage == "schoolEvil")
-            {
-                transform.localPosition += new Vector3(30f, 0f, 0f);
-            }
-
-            if (prevNote.isSustainNote)
-            {
-                switch (prevNote.noteData)
-                {
-                    case PURP_NOTE:
-                        prevNote.animator.Play("purplehold");
-                        break;
-                    case GREEN_NOTE:
-                        prevNote.animator.Play("greenhold");
-                        break;
-                    case RED_NOTE:
-                        prevNote.animator.Play("redhold");
-                        break;
-                    case BLUE_NOTE:
-                        prevNote.animator.Play("bluehold");
-                        break;
-                }
-
-                float scaleY = Conductor.instance.stepCrochet / 100f * 1.5f * GameManager.instance.songSpeed;
-                prevNote.transform.localScale = new Vector3(prevNote.transform.localScale.x, scaleY, 1f);
-            }
-        }
     }
 
     private void Update()

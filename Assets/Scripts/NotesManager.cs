@@ -15,7 +15,6 @@ public class NotesManager : MonoBehaviour
         public float strumTime;
         public int noteType;
         public bool mustHit;
-        public float sustainLength;
     }
 
     public const int LEFT_NOTE = 0;
@@ -44,7 +43,6 @@ public class NotesManager : MonoBehaviour
 
                 float strumTime = noteData[0];
                 int noteType = (int)noteData[1] % 4;
-                float sustainLength = noteData.Length > 2 ? noteData[2] : 0;
                 bool mustHit = section.mustHitSection;
                 if (noteData[1] > 3)
                     mustHit = !section.mustHitSection;
@@ -53,8 +51,7 @@ public class NotesManager : MonoBehaviour
                 {
                     strumTime = strumTime,
                     noteType = noteType,
-                    mustHit = mustHit,
-                    sustainLength = sustainLength
+                    mustHit = mustHit
                 });
             }
         }
@@ -99,17 +96,7 @@ public class NotesManager : MonoBehaviour
         GameObject noteObj = Instantiate(prefab);
         Note note = noteObj.GetComponent<Note>();
         note.mustPress = data.mustHit;
-        note.Initialize(data.strumTime, data.noteType, null, data.sustainLength > 0);
-
-        if (data.sustainLength > 0)
-        {
-            GameObject sustainObj = Instantiate(prefab);
-            Note sustainNote = sustainObj.GetComponent<Note>();
-            sustainNote.mustPress = data.mustHit;
-            sustainNote.Initialize(data.strumTime + data.sustainLength, data.noteType, note, true);
-            sustainNote.sustainLength = data.sustainLength;
-            note.sustainLength = data.sustainLength;
-        }
+        note.Initialize(data.strumTime, data.noteType);
     }
 
     public void ClearNotes()

@@ -17,9 +17,6 @@ public class StrumNoteController : MonoBehaviour
     public bool canBeHit;
     public bool tooLate;
     public bool wasGoodHit;
-    public bool isSustainNote;
-    public Note prevNote;
-    public float sustainLength;
     public float scrollSpeed = 1f;
 
     private SpriteRenderer spriteRenderer;
@@ -65,12 +62,9 @@ public class StrumNoteController : MonoBehaviour
         }
     }
 
-    public void Initialize(float strumTime, int noteData, Note prevNote = null, bool isSustain = false)
+    public void Initialize(float strumTime, int noteData)
     {
         this.strumTime = strumTime;
-        this.prevNote = prevNote;
-        this.isSustainNote = isSustain;
-        
         direction = (NoteDirection)noteData;
         
         float xPos = 0;
@@ -121,16 +115,13 @@ public class StrumNoteController : MonoBehaviour
                 gameManager.NoteHit(this);
             }
             
-            if (!isSustainNote)
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 
     public void MissNote()
     {
-        if (!wasGoodHit && !isSustainNote)
+        if (!wasGoodHit)
         {
             if (isPlayerStrum)
             {
