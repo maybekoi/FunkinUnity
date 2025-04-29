@@ -2,6 +2,8 @@
 
 ## A w.i.p. port of Friday Night Funkin' to the Unity Game Engine!
 
+This is the LEGACY/OLDER version of Funkin' Unity (yay woo!!)
+I'm only uploading it for archival purposes + I might make slight change to it.
 This is a project by little ol me, completely made out of boredom.
 This will NEVER be perfect (I sucks at codings).
 If you wanna help with this please. please do.
