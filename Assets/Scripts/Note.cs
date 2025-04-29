@@ -142,7 +142,7 @@ public class Note : MonoBehaviour
 
         if (noteData == 0 && Time.frameCount % 120 == 0)
         {
-            Debug.Log($"Note {noteData}: targetY={targetY:F2}, timeRem={timeRemaining:F0}, GM Speed={currentSongSpeed:F1}");
+            //Debug.Log($"Note {noteData}: targetY={targetY:F2}, timeRem={timeRemaining:F0}, GM Speed={currentSongSpeed:F1}");
         }
 
         float safeZone = 0.166f;
