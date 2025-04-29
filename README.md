@@ -19,6 +19,5 @@ Make a thingy that shows what's new (kinda like how KE does it!)
 
 # Credits
 
-* TyDotCS - Project
-* HiroNG/Bitrushed - Promo Art (w.i.p.)
+* maybekoi (me!) - Project
 * Funkin' Crew - Original Game
